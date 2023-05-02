@@ -1,0 +1,24 @@
+var builder = WebApplication.CreateBuilder(args);
+var app = builder.Build();
+
+app.MapGet("/configura/{parametro1}/{parametro2}", async context =>
+{
+    var t1 = context.Request.RouteValues["parametro1"];
+    var t2 = context.Request.RouteValues["parametro2"];
+//    await context.Response.WriteAsync($"Parametro 1: {t1}. Parametro 2: {t2}");
+
+
+System.Diagnostics.ProcessStartInfo process = new System.Diagnostics.ProcessStartInfo();
+    process.UseShellExecute = false;
+    process.WorkingDirectory = "/bin";
+    process.FileName = "sh";
+    process.Arguments = $"/ProjetoRedes/testerun.sh {t1} {t2}";
+        process.RedirectStandardOutput = true;
+    System.Diagnostics.Process cmd =  System.Diagnostics.Process.Start(process);
+    cmd.WaitForExit();
+
+	 await context.Response.WriteAsync($"Parametro 1: {t1}. Parametro 2: {t2}");
+
+
+});
+app.Run();
