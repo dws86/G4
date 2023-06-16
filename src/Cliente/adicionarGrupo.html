@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+	<title>VPN PUC</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<script>
+
+function enviarDados() {
+  let url = new URL('http://localhost:5173/flag/6/' + document.getElementById("username").value + '/' + document.getElementById("group").value);
+  window.location.href = url;
+}
+
+</script>
+
+<body>
+	
+	<div class="container">
+	
+		<form id="formulario">
+			<h2>Adicionar Usuário ao grupo</h2>
+
+			<div class="form-group">
+				<label for="username">Usuário:</label>
+				<input type="text" id="username" name="username">
+			</div>
+
+			<div class="form-group">
+				<label for="group">Grupo:</label>
+				<input type="text" id="group" name="group">
+			</div>
+
+			<input type="button" onclick="enviarDados()" value="Adicionar ao grupo">
+		
+		</form>
+	</div>
+	<meta charset="UTF-8">
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>VPN PUC</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<script>
+
+function enviarDados() {
+  let url = new URL('http://localhost:5173/flag/5/' + document.getElementById("username").value);
+  window.location.href = url;
+}
+
+</script>
+
+<body>
+	
+	<div class="container">
+	
+		<form id="formulario">
+			<h2>Ativar um Usuário</h2>
+
+			<div class="form-group">
+				<label for="username">Usuário:</label>
+				<input type="text" id="username" name="username">
+			</div>
+
+			<input type="button" onclick="enviarDados()" value="Ativar">
+		
+		</form>
+	</div>
+	<meta charset="UTF-8">
+</body>
+</html>
