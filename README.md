@@ -1,11 +1,11 @@
-# RELATÓRIO TÉCNICO
+# RELATÓRIO TÉCNICO 🖥️
 #
 ## Desenvolvimento de Sistema para Redes de Computadores
-### Grupo: Daniel Walter Dos Santos
+### Grupo: Daniel Walter Dos Santos, Gabriel Sousa Carvalhaes, Sherdon Miranda, Urich Batista Souza E Silva e Clebson Ferreira da Silva Cruz
 
 ## INTRODUÇÃO
 
-Com o advento do trabalho remoto cresce o número de empresas interessadas em buscar soluções seguras que permitam à seus funcionários o acesso a recursos corporativos fora do ambiente empresarial. A empresa com a qual estamos desenvolvendo este projeto não é diferente e adota uma solução popular baseada em VPN, que fornece uma conexão segura e criptografada entre o dispositivo do usuário e a rede da empresa.
+Com o advento do trabalho remoto, cresce o número de empresas interessadas em buscar soluções seguras que permitam à seus funcionários o acesso a recursos corporativos fora do ambiente empresarial. Dessa forma, a empresa com a qual estamos desenvolvendo este projeto não é diferente e adota uma solução popular baseada em VPN, que fornece uma conexão segura e criptografada entre o dispositivo do usuário e a rede da empresa.
 
 A nossa empresa parceira utiliza o OpenVPN, uma solução popular, de fácil configuração e suporte a uma ampla variedade de sistemas operacionais. Para facilitar a criação de usuários de VPN, muitas empresas optam por usar shell scripts em Ubuntu, ClearOS, CentOS entre outros, de modo a automatizar o processo de criação de usuários.
 
@@ -19,7 +19,7 @@ Contextualizar a solução de problemas ao criar usuários de VPN pelo OpenVPN, 
 
 #### SOBRE A EMPRESA
 
-A instituição parceira atua no ramo da construção civil, sendo uma empresa de médio porte que possui seus setores bem definidos, não havendo, porém, uma equipe interna de TI. O suporte em tecnologia se dá através de uma equipe terceirizada. Um dos recursos tecnológicos mais utilizados é justamente o acesso aos arquivos confidenciais da empresa através do VPN, tais arquivos localizados em um servidor local da empresa. Cada gestor em seu setor é responsável por solicitar à terceirizada (TI) a criação de usuários VPN conforme a demanda exige, seja por trabalho remoto, viagens, doenças, reuniões online, entre outros.
+A instituição parceira, Smart Empreendimento, atua no ramo da construção civil, sendo uma empresa de médio porte que possui seus setores bem definidos, não havendo, porém, uma equipe interna de TI. O suporte em tecnologia se dá através de uma equipe terceirizada. Um dos recursos tecnológicos mais utilizados é justamente o acesso aos arquivos confidenciais da empresa através do VPN, tais arquivos localizados em um servidor local da empresa. Cada gestor em seu setor é responsável por solicitar à terceirizada (TI) a criação de usuários VPN conforme a demanda exige, seja por trabalho remoto, viagens, doenças, reuniões online, entre outros.
  
 Os setores que mais demandam esse serviço são o setor de marketing, gestão de projetos, RH e principalmente os setores externos como o de engenharia e almoxarifado.
 Abaixo podemos exemplos representados de forma geral através dessas personas os problemas e características de uma parcela dos funcionários da empresa e isso nos auxiliou a entender um pouco como eles utilizam esse recurso no dia a dia:
@@ -76,9 +76,7 @@ Para as próximas etapas daremos início a construção de alguns parâmetros do
 
 # CONCLUSÃO
 
-Em resumo, o uso de um shell script para criar usuários no Windows Server é uma solução eficiente e escalável para gerenciar a criação de contas de usuário para usuários do OpenVPN. O script pode ser facilmente personalizado para
- 
-atender às necessidades específicas da organização, como a adição de permissões de usuário e grupos.
+Em resumo, o uso de um shell script para criar usuários no Windows Server é uma solução eficiente e escalável para gerenciar a criação de contas de usuário para usuários do OpenVPN. O script pode ser facilmente personalizado para atender às necessidades específicas da organização, como a adição de permissões de usuário e grupos.
 
 Além disso, a automação de tarefas repetitivas, como a criação de contas de usuário, pode ajudar a minimizar erros humanos e reduzir o tempo gasto na administração do servidor. Com o shell script, o suporte técnico pode se concentrar em outras tarefas importantes enquanto o script executa a criação de usuários de forma rápida e eficiente.
 
