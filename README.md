@@ -24,9 +24,9 @@ A instituição parceira atua no ramo da construção civil, sendo uma empresa d
 Os setores que mais demandam esse serviço são o setor de marketing, gestão de projetos, RH e principalmente os setores externos como o de engenharia e almoxarifado.
 Abaixo podemos exemplos representados de forma geral através dessas personas os problemas e características de uma parcela dos funcionários da empresa e isso nos auxiliou a entender um pouco como eles utilizam esse recurso no dia a dia:
 
-![Persona](https://github.com/dws86/G4/prints/Persona.png "Persona")
+![Persona](prints/Persona.png "Persona")
 
-![Depoimento](https://github.com/dws86/G4/prints/Depoimento.png "Depoimento")
+![Depoimento](prints/Depoimento.png "Depoimento")
 
 Foi ressaltado o atraso na disponibilização dos acessos para funcionários em home office, atrapalhando algumas vezes o andamento das reuniões online e a disponibilização de arquivos importantes. De outra perspectiva, a constante necessidade de solicitar novas credenciais a cada vez que um novo funcionário entrar na equipe acaba retardando a integração do mesmo nos projetos que já estão em andamento, visto que a disponibilização dos arquivos só ocorre quando o acesso VPN estiver normalizado. Para ele, a possibilidade dele mesmo criar os “acessos ao VPN” conforme necessidade, agilizaria todo o processo e tornaria a integração de novos funcionários mais rápida, já que, sendo ele o gestor de um setor que demanda uma versatilidade quanto a localização de seu trabalho, todos os funcionários precisam do recurso, sem exceção.
 
