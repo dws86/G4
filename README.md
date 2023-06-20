@@ -52,7 +52,7 @@ Após algumas reuniões com os membros da equipe e levando em consideração a v
 credenciais de acesso ao VPN e que faça o download dos arquivos necessários no computador a ser utilizado. O utilizador poderá criar seu usuário em uma interface WEB de forma simples e rápida, já disponibilizando de imediato o acesso aos usuários. Além disso, ofereceria em seus recursos estatísticas de usuário, alertas, análises, histórico de conexões, entre outros. Tais dados seriam úteis para também para a equipe terceirizada de TI em forma de estatísticas de uso.
 Abaixo podemos ver exemplo de uma possível interface a ser adotada:
 
-![VPN](https://github.com/dws86/G4/prints/VPN.png "VPN")
+![VPN](prints/VPN.png "VPN")
 
 ## PRÓXIMAS ETAPAS
 
